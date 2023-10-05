@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sentence-transformers = "*"
+uvicorn = "*"
+ctransformers = "*"
+fastapi = "*"
+ipykernel = "*"
+langchain = "*"
+python-box = "*"
+streamlit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
